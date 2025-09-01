@@ -308,7 +308,7 @@ const Home = () => {
             >
               <div className="relative z-10 aspect-[4/3] md:aspect-[5/4] lg:aspect-[4/3] xl:aspect-[16/10] overflow-hidden rounded-2xl shadow-2xl">
                 <img
-                  src="/public/Makhana.png"
+                  src="/Makhana.png"
                   alt="Premium Makhana Products"
                   className="absolute inset-0 w-full h-full object-cover"
                 />

@@ -26,7 +26,7 @@ const Process = () => {
         "Traditional farming methods",
         "Seasonal harvesting"
       ],
-      image: "/public/Makhana.png"
+      image: "/Makhana.png"
     },
     {
       step: 2,
@@ -39,7 +39,7 @@ const Process = () => {
         "Gentle handling",
         "Quality assessment"
       ],
-      image: "/public/Makhana.png"
+      image: "/Makhana.png"
     },
     {
       step: 3,
@@ -52,7 +52,7 @@ const Process = () => {
         "Nutrient preservation",
         "Traditional methods"
       ],
-      image: "/public/Makhana.png"
+      image: "/Makhana.png"
     },
     {
       step: 4,
@@ -65,7 +65,7 @@ const Process = () => {
         "Cleaning process",
         "Packaging preparation"
       ],
-      image: "/public/Makhana.png"
+      image: "/Makhana.png"
     },
     {
       step: 5,
@@ -78,7 +78,7 @@ const Process = () => {
         "Nutritional analysis",
         "Final quality approval"
       ],
-      image: "/public/Makhana.png"
+      image: "/Makhana.png"
     },
     {
       step: 6,
@@ -91,7 +91,7 @@ const Process = () => {
         "Tamper-proof sealing",
         "Quick delivery"
       ],
-      image: "/public/Makhana.png"
+      image: "/Makhana.png"
     }
   ]
 

@@ -47,19 +47,19 @@ const About = () => {
     {
       name: "Rahul Kumar",
       role: "Founder & CEO",
-      image: "/public/Rahul.png",
+      image: "/Rahul.png",
       description: "Agricultural engineer with 10+ years in food processing"
     },
     {
       name: "Priya Singh",
       role: "Quality Head",
-      image: "/public/priya.png",
+      image: "/Priya.png",
       description: "Food scientist ensuring premium quality standards"
     },
     {
       name: "Amit Sharma",
       role: "Operations Manager",
-      image: "/public/Amith.png",
+      image: "/Amith.png",
       description: "Supply chain expert managing farmer relationships"
     }
   ]
@@ -126,7 +126,7 @@ const About = () => {
               viewport={{ once: true }}
             >
               <img
-                src="/public/Makhana.png"
+                src="/Makhana.png"
                 alt="Makhana farming in Bihar"
                 className="w-full h-auto rounded-2xl shadow-xl"
               />
