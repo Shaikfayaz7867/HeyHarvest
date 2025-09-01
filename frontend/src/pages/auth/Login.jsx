@@ -200,8 +200,8 @@ const Login = () => {
         >
           <h4 className="text-sm font-medium text-blue-800 mb-2">Demo Credentials</h4>
           <div className="text-xs text-blue-700 space-y-1">
-            <p><strong>Admin:</strong> admin@heyharvest.com / admin123</p>
-            <p><strong>User:</strong> user@example.com / user123</p>
+            <p><strong>Admin:</strong>fayaz.ahamedwork@gmail.com / Test@123</p>
+            <p><strong>User:</strong>kiran123@gmail.com / Test@123</p>
           </div>
         </motion.div>
       </motion.div>
