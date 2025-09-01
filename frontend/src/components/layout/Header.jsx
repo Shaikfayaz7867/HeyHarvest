@@ -78,9 +78,12 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors font-medium"
+                className="relative group text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors font-medium pb-1"
               >
-                {item.name}
+                <span>{item.name}</span>
+                <span
+                  className="pointer-events-none absolute -bottom-0.5 left-0 h-0.5 w-full bg-primary transform origin-left scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100"
+                />
               </Link>
             ))}
           </nav>
@@ -229,10 +232,13 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors font-medium"
+                  className="relative group text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors font-medium pb-1"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  {item.name}
+                  <span>{item.name}</span>
+                  <span
+                    className="pointer-events-none absolute -bottom-0.5 left-0 h-0.5 w-full bg-primary transform origin-left scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100"
+                  />
                 </Link>
               ))}
               
