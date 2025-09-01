@@ -196,7 +196,7 @@ const Home = () => {
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         {/* Animated background (light/dark) */}
@@ -304,7 +304,7 @@ const Home = () => {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative"
+              className="relative overflow-hidden"
             >
               <div className="relative z-10 aspect-[4/3] md:aspect-[5/4] lg:aspect-[4/3] xl:aspect-[16/10] overflow-hidden rounded-2xl shadow-2xl">
                 <img
